@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-label="Mohamed Minhaj AI Engineer">
+<defs>
+  <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#02090b"/><stop offset="1" stop-color="#062426"/></linearGradient>
+  <linearGradient id="neon"><stop stop-color="#00f5d4"/><stop offset=".55" stop-color="#6dffe7"/><stop offset="1" stop-color="#26a9db"/></linearGradient>
+  <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#0e5c59" stroke-opacity=".22"/></pattern>
+  <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <linearGradient id="scan" x1="0" x2="1"><stop stop-color="#00f5d4" stop-opacity="0"/><stop offset=".5" stop-color="#00f5d4" stop-opacity=".32"/><stop offset="1" stop-color="#00f5d4" stop-opacity="0"/></linearGradient>
+  <style>
+    .orbit{transform-box:fill-box;transform-origin:center;animation:spin 14s linear infinite}.orbit2{transform-box:fill-box;transform-origin:center;animation:spinBack 9s linear infinite}.pulse{animation:pulse 2.8s ease-in-out infinite}.scan{animation:sweep 5s ease-in-out infinite}.blink{animation:blink 1.2s steps(2,end) infinite}.code{animation:fade 4s ease-in-out infinite}.d2{animation-delay:.6s}.d3{animation-delay:1.2s}.d4{animation-delay:1.8s}
+    @keyframes spin{to{transform:rotate(360deg)}}@keyframes spinBack{to{transform:rotate(-360deg)}}@keyframes pulse{50%{opacity:.28}}@keyframes sweep{0%,100%{transform:translateY(-70px);opacity:0}20%,80%{opacity:1}50%{transform:translateY(330px)}}@keyframes blink{50%{opacity:0}}@keyframes fade{0%,100%{opacity:.28}50%{opacity:.8}}
+  </style>
+</defs>
+<rect width="1200" height="340" rx="18" fill="url(#bg)"/><rect width="1200" height="340" fill="url(#grid)"/>
+<rect x="1" y="1" width="1198" height="338" rx="18" fill="none" stroke="#0a706b"/>
+<rect class="scan" x="0" y="0" width="1200" height="42" fill="url(#scan)" opacity=".45"/>
+<text x="58" y="62" font-family="monospace" font-size="17" letter-spacing="3" fill="#00e6c3">// AI · COMPUTER VISION · ROBOTICS · REAL-TIME SYSTEMS</text>
+<text x="54" y="151" font-family="Arial,Helvetica,sans-serif" font-weight="900" font-size="70" fill="#effffb">MOHAMED</text>
+<text x="54" y="224" font-family="Arial,Helvetica,sans-serif" font-weight="900" font-size="70" fill="url(#neon)">MINHAJ</text>
+<text x="58" y="275" font-family="monospace" font-size="30" letter-spacing="9" fill="url(#neon)">AI ENGINEER</text>
+<path d="M650 54V289" stroke="#00e6c3" stroke-opacity=".6"/>
+<circle class="pulse" cx="948" cy="164" r="120" fill="none" stroke="#00e6c3" stroke-opacity=".15" stroke-width="18"/>
+<circle class="orbit" cx="948" cy="164" r="91" fill="none" stroke="#00e6c3" stroke-opacity=".55" stroke-width="2" stroke-dasharray="12 9"/>
+<circle class="orbit2" cx="948" cy="164" r="68" fill="none" stroke="#26a9db" stroke-opacity=".5" stroke-width="2" stroke-dasharray="3 14"/>
+<circle class="pulse" cx="948" cy="164" r="48" fill="#00e6c3" fill-opacity=".035" stroke="#00e6c3" stroke-opacity=".3"/>
+<g font-family="monospace" font-size="19" fill="#d8fff6">
+<text x="702" y="111">◈  COMPUTER VISION</text>
+<text x="702" y="158">◈  DEEP LEARNING</text>
+<text x="702" y="205">◈  ROBOTICS &amp; AI AGENTS</text>
+<text x="702" y="252">◈  EDGE AI SYSTEMS</text>
+</g>
+<path d="M57 304H597" stroke="url(#neon)" stroke-width="3" filter="url(#glow)"/>
+<rect class="blink" x="512" y="253" width="15" height="28" rx="2" fill="#00f5d4"/>
+<g fill="#00f5d4" font-family="monospace" font-size="10" opacity=".55"><text class="code" x="1060" y="80">01 101 001</text><text class="code d2" x="1090" y="110">CV::TRACK</text><text class="code d3" x="1068" y="250">SYS.ONLINE</text><text class="code d4" x="1087" y="278">EDGE::AI</text></g>
+</svg>

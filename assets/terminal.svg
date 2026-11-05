@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="270" viewBox="0 0 1200 270" role="img" aria-label="Mohamed Minhaj engineering terminal">
+<defs>
+  <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#02090b"/><stop offset="1" stop-color="#071d1e"/></linearGradient>
+  <linearGradient id="line"><stop stop-color="#00f5d4"/><stop offset="1" stop-color="#26a9db"/></linearGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <style>
+    .cursor{animation:blink 1s steps(2,end) infinite}.scan{animation:scan 4.5s linear infinite}.s1{animation:show1 9s linear infinite}.s2{animation:show2 9s linear infinite}.s3{animation:show3 9s linear infinite}.bar{animation:load 3s ease-in-out infinite;transform-origin:left}.dot{animation:pulse 1.8s ease-in-out infinite}.d2{animation-delay:.3s}.d3{animation-delay:.6s}
+    @keyframes blink{50%{opacity:0}}@keyframes scan{from{transform:translateX(-400px)}to{transform:translateX(1400px)}}@keyframes pulse{50%{opacity:.25}}@keyframes load{0%,100%{transform:scaleX(.25)}50%{transform:scaleX(1)}}@keyframes show1{0%,29%{opacity:1}33%,100%{opacity:.18}}@keyframes show2{0%,32%{opacity:.18}34%,63%{opacity:1}67%,100%{opacity:.18}}@keyframes show3{0%,65%{opacity:.18}68%,96%{opacity:1}100%{opacity:.18}}
+  </style>
+</defs>
+<rect x="1" y="1" width="1198" height="268" rx="16" fill="url(#bg)" stroke="#08736b"/>
+<path d="M1 48H1199" stroke="#0e4c49"/><circle cx="28" cy="25" r="6" fill="#ff5f57"/><circle cx="49" cy="25" r="6" fill="#febc2e"/><circle cx="70" cy="25" r="6" fill="#28c840"/>
+<text x="96" y="31" fill="#8fb4af" font-family="monospace" font-size="15">minhaj@ai-lab: ~/systems</text>
+<g font-family="monospace"><text x="32" y="82" fill="#00f5d4" font-size="17">$ ./deploy-intelligence --target real-world</text><rect class="cursor" x="491" y="66" width="9" height="20" fill="#00f5d4"/>
+<g font-size="15"><text class="s1" x="55" y="119" fill="#dffefa">[VISION] multi-camera perception pipeline synchronized</text><text class="s2" x="55" y="150" fill="#dffefa">[EDGE]   TensorRT inference optimized for Jetson</text><text class="s3" x="55" y="181" fill="#dffefa">[AGENT]  autonomous workflow connected and online</text></g>
+<text x="55" y="226" fill="#72938f" font-size="14">SYSTEM STATUS</text><text x="190" y="226" fill="#00f5d4" font-size="14">PRODUCTION READY</text>
+</g>
+<circle class="dot" cx="1010" cy="107" r="8" fill="#00f5d4" filter="url(#glow)"/><circle class="dot d2" cx="1060" cy="107" r="8" fill="#00f5d4" filter="url(#glow)"/><circle class="dot d3" cx="1110" cy="107" r="8" fill="#00f5d4" filter="url(#glow)"/>
+<path d="M920 155H1150" stroke="#163d3b" stroke-width="10" stroke-linecap="round"/><path class="bar" d="M920 155H1150" stroke="url(#line)" stroke-width="10" stroke-linecap="round" filter="url(#glow)"/>
+<rect class="scan" x="0" y="252" width="350" height="2" fill="url(#line)" filter="url(#glow)"/>
+</svg>
